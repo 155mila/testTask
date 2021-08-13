@@ -23,6 +23,10 @@ $accent: #d7b399;
     @media (max-width: 320px) {
       @content;
     }
+  } @else if $point == maxlg {
+    @media (max-width: 1021px) {
+      @content;
+    }
   } @else if $point == minlg {
     @media (min-width: 1020px) {
       @content;
