@@ -49,7 +49,7 @@ a {
     color: $blue;
   }
   &__nav {
-    @include breakpoint(lg) {
+    @include breakpoint(maxlg) {
       display: none;
     }
     display: flex;
