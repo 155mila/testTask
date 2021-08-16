@@ -368,6 +368,7 @@ a {
 }
 
 .order__form_btn.blue {
+  width: 370px;
   background: #3e9cdc;
   border: 1px solid #fff;
 }
