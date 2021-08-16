@@ -259,9 +259,7 @@ a {
     color: $grey-dark;
     text-transform: uppercase;
     cursor: pointer;
-    @include breakpoint(lg) {
-      width: 300px;
-    }
+
     &.blue {
       background: $blue-dark;
       border: 1px solid #fff;
@@ -292,9 +290,7 @@ a {
       border-color: transparent;
       color: $grey-dark;
       flex: 1 1 calc((100% / 3) - 2rem);
-      @include breakpoint(lg) {
-        width: 300px;
-      }
+
       .title__option {
         display: none;
       }
