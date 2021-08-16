@@ -249,6 +249,7 @@ a {
   }
 }
 .order__form {
+  width: 100%;
   @include breakpoint(md) {
     width: 98%;
   }

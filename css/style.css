@@ -354,6 +354,10 @@ a {
   opacity: 0;
 }
 
+.order__form {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .order__form {
     width: 98%;
