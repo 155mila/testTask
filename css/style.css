@@ -386,6 +386,7 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc((100% / 2) - 2rem);
           flex: 1 1 calc((100% / 2) - 2rem);
+  padding: 0 20px;
 }
 
 .order__form_btn.file_btn img {
