@@ -358,12 +358,6 @@ a {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .order__form {
-    width: 98%;
-  }
-}
-
 .order__form_btn {
   height: 48px;
   border-radius: 3px;

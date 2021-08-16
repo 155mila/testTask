@@ -250,9 +250,6 @@ a {
 }
 .order__form {
   width: 100%;
-  @include breakpoint(md) {
-    width: 98%;
-  }
   &_btn {
     height: 48px;
     border-radius: 3px;
