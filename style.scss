@@ -254,7 +254,6 @@ a {
   }
   &_btn {
     height: 48px;
-    width: 350px;
     border-radius: 3px;
     border-color: transparent;
     color: $grey-dark;
@@ -271,6 +270,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex: 1 1 calc((100% / 2) - 2rem);
       img {
         padding-right: 10px;
       }
@@ -284,14 +284,14 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1.5em;
 
     .order__form_select {
       height: 48px;
-      width: 350px;
       border-radius: 3px;
       border-color: transparent;
       color: $grey-dark;
-      margin: 20px 15px 0 15px;
+      flex: 1 1 calc((100% / 3) - 2rem);
       @include breakpoint(lg) {
         width: 300px;
       }
@@ -307,14 +307,10 @@ a {
     }
     .order__input {
       height: 48px;
-      width: 350px;
       border-radius: 3px;
       border-color: transparent;
       padding-left: 10px;
-      margin: 20px 15px 0 15px;
-      @include breakpoint(lg) {
-        width: 300px;
-      }
+      flex: 1 1 calc((100% / 3) - 2rem);
 
       &::placeholder {
         color: $grey-dark;
@@ -327,7 +323,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2em;
-    margin: 30px 15px 50px 15px;
+    margin: 30px 0 50px 0;
     @include breakpoint(lg) {
       justify-content: center;
       gap: 2.5em;
@@ -336,6 +332,7 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      flex: 1 1 calc((100% / 2) - 2rem);
       .progress__info {
         display: flex;
         justify-content: space-between;
@@ -352,21 +349,12 @@ a {
       }
     }
     .success {
-      width: 725px;
       height: 6px;
       background: rgba(255, 255, 255, 0.7);
       border: 1px solid $white;
       border-radius: 10px;
       position: relative;
-      @include breakpoint(lg) {
-        width: 627px;
-      }
-      @include breakpoint(md) {
-        width: 450px;
-      }
-      @include breakpoint(sm) {
-        width: 298px;
-      }
+
       &::before {
         display: block;
         position: absolute;
